@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightgray;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    background-color:white ;
+    border-bottom: 3px solid yellowgreen ;
+     
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar h2{
+    font-size: 12px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% ;
+}
+.liens a{
+    text-decoration: none;
+    padding: 8px;
+   
+}
+.liens a:hover{
+    background-color: yellowgreen;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+}
+.tete{
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.tete p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.tete a{
+    text-decoration: none;
+    color: white;
+}
+.tete button{
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    
+}
+.tete p{
+    padding: 30px;
+    padding-bottom: 0px;
+    color: white;
+}
+.presentation{
+    max-width: 100%;
+    text-align: center;
+    background-color: black;
+}
+.presentation img{
+    margin: 5%;
+    max-width: 90%;
+    margin-top: 20px;
+}
+footer{
+    background-color: black;
+}
+footer .contact{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+#left{
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    float: left;
+}
+#logo2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% ;
+}
+footer h4{
+    text-decoration: underline;
+}
+footer .contact div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 30%;
+    color: white;
+    margin-left: 40px;
+    text-align: left;
+    
+}
+
+footer .contact div p{
+    max-width: 80%;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#pied{
+    background-color: black;
+    height: 100%;
+    margin-top: 0px;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (width: 280px){
+    #copy{
+        display: none;
+    }
+         
+}
+@media only screen and (width: 320px){
+    #copy{
+        display: none;
+    }
+         
+}
+
+@media only screen and (width: 540px){
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        margin: 10px;
+        background-color:white ;
+        border-bottom: 3px solid yellowgreen ;
+         
+    }
+    .tete p{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        max-width: 50px;
+    }
+    .liens a{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .liens a{
+        font-size: 12px;
+    }
+    .liens{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        margin: 0px;
+        background-color: ;
+        border-bottom: 3px solid yellowgreen ;  
+        }
+    .navbar h2{
+        font-size: 10px;
+    }
+    .tete{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: blue;
+        width: 100%;
+        font-size: 10px;
+        justify-content: center;
+    }
+    .tete a{
+        text-decoration: none;
+        color: white;
+    }
+    .tete p{
+        padding: 5px;
+        padding-bottom: 0px;
+        color: white;
+    }
+    #pied p{
+        font-size: 12px;
+    }
+    .slide{
+        max-width: 80%;
+    }
+    section h1{
+        text-decoration: underline;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 0px;
+        font-style: oblique;
+        color: green;
+        font-size: 15px;
+    }
+    footer h4{
+        font-size: 15px;
+    }
+    .description{
+        text-align: left;
+        margin-left: 20%;
+    
+    }
+    #copy{
+        font-size: 8px;
+
+    }
+    #pied{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+}
+.bagou-semi-auto{
+    max-width: 80%;
+}
+.as{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.as img{
+    width: 40%;
+    align-items: center;
+    padding: 20px;
+}
+
+section h1{
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    font-style: oblique;
+    color: green;
+}
+section h3{
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.youtube{
+    border: none;
+    padding: 10PX;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.youtube:hover{
+    padding: 15px;
+    background-color: aqua;
+    color: black;
+
+}
+.tarifs{
+    font-size: 20px;
+}
+.ea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ea img{
+    width: 60%;center
+    align-items: center;
+    padding: 20px;
+}
+.icones{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+.contact p{
+    display: flex;
+    
+}
+#pied{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#pied div{
+    display: flex;
+    
+    float: right;
+}
+#pied div img{
+    width: 100px;
+    height: 70px;
+    padding: 20px;
+}
+.description{
+    text-align: left;
+    margin-left: 30%;
+}
+
